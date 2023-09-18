@@ -1,63 +1,150 @@
+html lang="pt-br"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coffe Shop Tia Rosa</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--My CSS-->
+    <link rel="stylesheet" href="style.css">
+  <style>@media print {#ghostery-tracker-tally {display:none !important}}</style></head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg" id="navbar-scroll">
+        <div class="container-fluid mt-3">
+         <center></P><a class="navbar-brand" href="#" style = 'font-size:60px'  ><i>_____________________TIA ROSA COFFE___________________ </a> </center> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" aria-current="page" href="#Home">Home</a>
+              <a class="nav-link" href="#Menu">Menu</a>
+              <a class="nav-link" href="#Sobre"> Sobre Nós</a>
+              <a class="nav-link" href="#Contatos"> Contatos</a></a></a></a></a></a>
+             </div>
+           </div>
+         </div>
+        </div> 
+      </nav>
+        <!-- Image -->
+        <div class="coffe-wall">
+          <img src="paginainicial.jpg" alt="coffewall" width="100%">
+        </div>
 
-HTML
+        <div data-bs-spy="scroll" data-bs-target="#navbar-scroll" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 
-Copiar código
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página Inicial</title>
-    <!-- Adicione aqui as folhas de estilo CSS ou links para elas -->
-    <!-- Por exemplo: <link rel="stylesheet" href="estilos.css"> -->
-</head>
-<body>
-    <header>
-        
-       
-<h1>Minha Página Inicial</h1>
-        <nav>
-            <ul>
+            <!-- Menu scroll -->
+          <section class="Menu">
+            <body style="background-color: rgb(253, 198, 15);">
+              
+            </body>
+                <center><h4 id="Menu" style = 'font-size:60px'  ><i>_____________________________Menu________________________________</i></h4></h4>
+                  <div class="container-fluid mt-3">
+                      <div class="row">
+                        <div class="col-sm-4 p-4">
+                          <img class="rounded mx-auto d-block" src="expresso.png" alt="expresso">
+                        <p class="alimento">Expresso</p> 
+                          <p class="preco">R$ 2.99</p>
+                        </div>
+  
+                        <div class="col-sm-4 p-4">
+                          <img class="rounded mx-auto d-block" src="lungo.png" alt="lungo">
+                          <p class="alimento">Lungo</p>
+                          <p class="preco">R$ 5.99</p>
+                        </div>
+  
+                        <div class="col-sm-4 p-4">
+                          <img class="rounded mx-auto d-block" src="cappuccino.png" alt="cappuccino">
+                          <p class="alimento">Cappuccino</p>
+                          <p class="preco">R$ 4.50</p>
+                        </div>
+                      </div>
+  
+                      <div class="row">
+                        <div class="col-sm-4 p-4">
+                          <img class="rounded mx-auto d-block" src="chai-tea-latte.png" alt="cha_tea_late">
+                          <p class="alimento">Chai Tea Latte</p>
+                          <p class="preco">R$ 6.99</p>
+                      </div>
+  
+                        <div class="col-sm-4 p-4">
+                          <img class="rounded mx-auto d-block" src="chococino.png" alt="chococino">
+                          <p class="alimento">Chococino</p>
+                          <p class="preco">R$ 8.59</p>
+                      </div>
+  
+                        <div class="col-sm-4 p-4">
+                          <img class="rounded mx-auto d-block" src="milkshake.png" alt="milkshake">
+                          <p class="alimento">Milkshake</p>
+                          <p class="preco">R$ 12.99</p>
+                      </div>
+  
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-4 p-4">
+                          <img class="rounded mx-auto d-block" src="bolo-fatia.png" alt="bolo-fatia">
+                          <p class="alimento">bolo de chocolate</p>
+                          <p class="preco">R$ 9.50</p>
+                      </div>
+  
+                        <div class="col-sm-4 p-4">
+                          <img class="rounded mx-auto d-block" src="fatia-red-velvet.png" alt="red-velvet">
+                          <p class="alimento">Red Velvet</p>
+                          <p class="preco">R$ 11.50</p>
+                      </div>
+                        <div class="col-sm-4 p-4">
+                          <img class="rounded mx-auto d-block" src="croasaint.png" alt="croasaint">
+                          <p class="alimento">Croasaint</p>
+                          <p class="preco">R$ 12.00</p>
+                      </div>
+                      </div>
+                  </div>
+            </section></center>
+            <!-- Sobre scroll -->
+          <section class="sobre">
+                <h4 id="Sobre" style = 'font-size:60px'  vAlign="middle"  >  <i> _____________________________Sobre Nós_______________________ </h4>
+                <div class="row">
+                  <div class="col-sm-3 p-3"></div>
+                  <div class="col-sm-6 p-6">
+                    <img id="image-cafe" class="img-fluid" src="sobrenos.png" alt="sobre-nos">
+                    <div class="col-sm-3 p-3"></div>
+                </div>
+                <div class="window">
+                    <center><p>
+                      Nosso espaço foi criado em uma época
+                       em que o café estava começando a se 
+                       tornar uma parte fundamental da cultura 
+                       moderna, e nosso objetivo era oferecer 
+                       aos nossos clientes uma experiência 
+                       autêntica de café. Com um ambiente 
+                       aconchegante e descontraído, nossa 
+                       cafeteria se tornou um local popular para 
+                       aqueles que queriam desfrutar de uma xícara de café de alta qualidade em um ambiente acolhedor. Nós sempre usamos grãos de café frescos e selecionados,
+                       e nossos baristas são altamente treinados para preparar bebidas personalizadas de acordo com suas preferências.
+                       Estamos sempre procurando maneiras de inovar e melhorar nossa cafeteria, mantendo a autenticidade e o charme que nos tornaram um destino popular para os amantes do café.
+                      Agradecemos por escolher nossa cafeteria e esperamos que você tenha uma experiência agradável e autêntica em nosso espaço.</center>
+                     </p>
+            <section class="contatos">
+                  <h4 id="contatos" style = 'font-size:60px'  ><i>_____________________________Contatos____________________________</i></h4></h4>
+                   <div class="container-fluid mt-3">
+                    <center><p>Estamos localizados em:</p>
+                      <address>
+                          Rua das mangabeiras, 1324<br>
+                          Cidade das flores, SP<br>
+                          CEP: 12345-678<br>
+                      </address>
+                      <p>Entre em contato conosco pelo telefone:</p>
+                      
+                     
+              <p><a href="tel:+5585988432678">+55 85 9 8843 2678</a></p></center>
+                </section>
+                    
+                    
                 
-                <
-<li><a href="#">Página Principal</a></li>
-                <li><a href="#">Sobre Nós</a></li>
-                
-               
-<li><a href="#">Contato</a></li>
-            
-            </
-
-           
-</ul>
-        
-        </nav
-</nav>
-    </header>
-
-    
-
-    <
-<main>
-        
-        <
-<h2>Bem-vindo à minha página inicial</h2>
-        <p>Esta é uma página de exemplo.</p>
-    
-    </
-</main>
-
-    <footer>
-        <p>&copy; 2023 Minha Página Inicial</p>
-    </footer>
-
-    <!-- Adicione aqui os scripts JavaScript, se necessário -->
-    
-   
-<!-- Por exemplo: <script src="scripts.js"></script> -->
-
-</
-</body>
-
-</html
-</html>
+                  </div>
+              </div></section>
+            </div>
+              </div>
+            </footer>
+          </section>
+</body></html>
